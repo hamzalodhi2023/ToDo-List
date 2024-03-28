@@ -8,13 +8,18 @@ body {
   background: aquamarine;
 }
 
+.App {
+  width: 100%;
+  min-height: 100vh;
+}
+
 form {
   width: 50vw;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 10px 20px 10px 0px;
 }
 
 form input {
@@ -29,6 +34,41 @@ form input {
 form button {
   padding: 10px 20px;
   background: green;
+  color: white;
+  border-radius: 10px;
+}
+
+ul {
+  background: rgb(236, 236, 236);
+  border-radius: 10px;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+ul li {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul li p {
+  font-size: 1.5rem;
+}
+
+ul li span {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-button {
+  padding: 10px 20px;
   color: white;
   border-radius: 10px;
 }
